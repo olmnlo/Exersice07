@@ -11,6 +11,22 @@ public class Main {
         System.out.println("is filled: "+default_shape.isFilled());
         divider("default shape");
 
+        System.out.println();
+
+        Shape init_shape = new Shape("Blue", true);
+        divider("init_shape");
+        System.out.println(init_shape.toString());
+        init_shape.setColor("red");
+        init_shape.setFilled(false);
+        System.out.println(init_shape.toString());
+        System.out.println("color: "+init_shape.getColor());
+        System.out.println("is filled: "+init_shape.isFilled());
+        divider("init_shape");
+
+        System.out.println();
+
+
+
 
 
 
