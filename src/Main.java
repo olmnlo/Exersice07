@@ -172,6 +172,26 @@ public class Main {
         System.out.println("perimeter: "+ init_side_square.getPerimeter());
         divider("init_side_square");
 
+        System.out.println();
+
+        Square init_super_square = new Square(10, "Yellow", true);
+        divider("init_super_square");
+        System.out.println(init_super_square.toString());
+        System.out.println("width: "+init_super_square.getWidth());
+        System.out.println("side: "+ init_super_square.getSide());
+        System.out.println("area: "+ init_super_square.getArea());
+        System.out.println("perimeter: "+ init_super_square.getPerimeter());
+        init_super_square.setSide(8);
+        init_super_square.setWidth(6);
+        init_super_square.setFilled(false);
+        init_super_square.setColor("Black");
+        System.out.println(init_super_square.toString());
+        System.out.println("width: "+init_super_square.getWidth());
+        System.out.println("side: "+ init_super_square.getSide());
+        System.out.println("area: "+ init_super_square.getArea());
+        System.out.println("perimeter: "+ init_super_square.getPerimeter());
+        divider("init_super_square");
+
 
 
 
