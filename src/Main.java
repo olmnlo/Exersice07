@@ -132,6 +132,45 @@ public class Main {
         System.out.println("perimeter: "+ init_super_constructor_rectangle.getPerimeter());
         divider("init_super_constructor_rectangle");
 
+        System.out.println();
+
+        Square default_square = new Square();
+        divider("default_square");
+        System.out.println(default_square.toString());
+        System.out.println("width: "+default_square.getWidth());
+        System.out.println("side: "+ default_square.getSide());
+        System.out.println("area: "+ default_square.getArea());
+        System.out.println("perimeter: "+ default_square.getPerimeter());
+        default_square.setSide(8);
+        default_square.setWidth(6);
+        default_square.setFilled(false);
+        default_square.setColor("Black");
+        System.out.println(default_square.toString());
+        System.out.println("width: "+default_square.getWidth());
+        System.out.println("side: "+ default_square.getSide());
+        System.out.println("area: "+ default_square.getArea());
+        System.out.println("perimeter: "+ default_square.getPerimeter());
+        divider("default_square");
+
+        System.out.println();
+
+        Square init_side_square = new Square(10);
+        divider("init_side_square");
+        System.out.println(init_side_square.toString());
+        System.out.println("width: "+init_side_square.getWidth());
+        System.out.println("side: "+ init_side_square.getSide());
+        System.out.println("area: "+ init_side_square.getArea());
+        System.out.println("perimeter: "+ init_side_square.getPerimeter());
+        init_side_square.setSide(8);
+        init_side_square.setWidth(6);
+        init_side_square.setFilled(false);
+        init_side_square.setColor("Black");
+        System.out.println(init_side_square.toString());
+        System.out.println("width: "+init_side_square.getWidth());
+        System.out.println("side: "+ init_side_square.getSide());
+        System.out.println("area: "+ init_side_square.getArea());
+        System.out.println("perimeter: "+ init_side_square.getPerimeter());
+        divider("init_side_square");
 
 
 

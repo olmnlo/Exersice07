@@ -23,7 +23,17 @@ public class Square extends Rectangle{
     }
 
     @Override
+    public double getArea() {
+        return getLength()*getLength();
+    }
+
+    @Override
+    public double getPerimeter() {
+        return getLength()*4;
+    }
+
+    @Override
     public String toString() {
-        return "A Square with side="+getSide()+"which is a subclass of "+super.toString();
+        return "A Square with side="+getSide()+" which is a subclass of "+super.toString();
     }
 }

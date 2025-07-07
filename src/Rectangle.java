@@ -8,14 +8,14 @@ public class Rectangle extends Shape{
     }
 
     public Rectangle(double width, double length) {
-        this.width = width;
-        this.length = length;
+        setWidth(width);
+        setLength(length);
     }
 
     public Rectangle(String color, boolean filled, double width, double length) {
         super(color, filled);
-        this.width = width;
-        this.length = length;
+        setWidth(width);
+        setLength(length);
     }
 
     public double getWidth() {
@@ -23,7 +23,11 @@ public class Rectangle extends Shape{
     }
 
     public void setWidth(double width) {
-        this.width = width;
+        if (width < 0){
+            System.out.println("You cannot do this it is must be positive");
+        }else {
+            this.width = width;
+        }
     }
 
     public double getLength() {
@@ -31,7 +35,11 @@ public class Rectangle extends Shape{
     }
 
     public void setLength(double length) {
-        this.length = length;
+        if(length < 0){
+            System.out.println("You cannot do this it is must be positive");
+        }else {
+            this.length = length;
+        }
     }
 
     public double getArea(){

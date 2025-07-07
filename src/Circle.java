@@ -19,7 +19,11 @@ public class Circle extends Shape{
     }
 
     public void setRadius(double radius) {
-        this.radius = radius;
+        if(radius < 0){
+            System.out.println("You cannot do this it is must be positive");
+        }else {
+            this.radius = radius;
+        }
     }
 
     public double getArea(){
