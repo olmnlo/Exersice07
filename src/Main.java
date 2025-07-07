@@ -32,6 +32,7 @@ public class Main {
         System.out.println("area: "+ default_circle.getArea());
         System.out.println("circle perimeter: "+ default_circle.getPerimeter());
         default_circle.setRadius(3);
+        System.out.println(default_circle.toString());
         System.out.println("circle radius: "+ default_circle.getRadius());
         System.out.println("area: "+ default_circle.getArea());
         System.out.println("circle perimeter: "+ default_circle.getPerimeter());
@@ -39,7 +40,20 @@ public class Main {
 
         System.out.println();
 
-        divider("default_circle");
+        Circle init_rad_circle = new Circle(5);
+        divider("init_rad_circle");
+        System.out.println(init_rad_circle.toString());
+        System.out.println("circle radius: "+ init_rad_circle.getRadius());
+        System.out.println("area: "+ init_rad_circle.getArea());
+        System.out.println("circle perimeter: "+ init_rad_circle.getPerimeter());
+        init_rad_circle.setRadius(3);
+        System.out.println(init_rad_circle.toString());
+        System.out.println("circle radius: "+ init_rad_circle.getRadius());
+        System.out.println("area: "+ init_rad_circle.getArea());
+        System.out.println("circle perimeter: "+ init_rad_circle.getPerimeter());
+        divider("init_rad_circle");
+
+
 
 
 
