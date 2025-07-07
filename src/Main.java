@@ -25,7 +25,21 @@ public class Main {
 
         System.out.println();
 
+        Circle default_circle = new Circle();
+        divider("default_circle");
+        System.out.println(default_circle.toString());
+        System.out.println("circle radius: "+ default_circle.getRadius());
+        System.out.println("area: "+ default_circle.getArea());
+        System.out.println("circle perimeter: "+ default_circle.getPerimeter());
+        default_circle.setRadius(3);
+        System.out.println("circle radius: "+ default_circle.getRadius());
+        System.out.println("area: "+ default_circle.getArea());
+        System.out.println("circle perimeter: "+ default_circle.getPerimeter());
+        divider("default_circle");
 
+        System.out.println();
+
+        divider("default_circle");
 
 
 
