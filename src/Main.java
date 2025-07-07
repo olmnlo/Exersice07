@@ -59,20 +59,55 @@ public class Main {
 
         System.out.println();
 
-        Circle init_all_circle = new Circle("Orange", true, 4);
-        divider("init_all_circle");
-        System.out.println(init_all_circle.toString());
-        System.out.println("circle radius: "+ init_all_circle.getRadius());
-        System.out.println("area: "+ init_all_circle.getArea());
-        System.out.println("perimeter: "+ init_all_circle.getPerimeter());
-        init_all_circle.setRadius(3);
-        init_all_circle.setFilled(false);
-        init_all_circle.setColor("Black");
-        System.out.println(init_all_circle.toString());
-        System.out.println("circle radius: "+ init_all_circle.getRadius());
-        System.out.println("area: "+ init_all_circle.getArea());
-        System.out.println("perimeter: "+ init_all_circle.getPerimeter());
-        divider("init_all_circle");
+        Circle init_super_circle = new Circle("Orange", true, 4);
+        divider("init_super_circle");
+        System.out.println(init_super_circle.toString());
+        System.out.println("circle radius: "+ init_super_circle.getRadius());
+        System.out.println("area: "+ init_super_circle.getArea());
+        System.out.println("perimeter: "+ init_super_circle.getPerimeter());
+        init_super_circle.setRadius(3);
+        init_super_circle.setFilled(false);
+        init_super_circle.setColor("Black");
+        System.out.println(init_super_circle.toString());
+        System.out.println("circle radius: "+ init_super_circle.getRadius());
+        System.out.println("area: "+ init_super_circle.getArea());
+        System.out.println("perimeter: "+ init_super_circle.getPerimeter());
+        divider("init_super_circle");
+
+        System.out.println();
+
+        Circle circle1 = new Circle("Blue", false, 5);
+        divider("circle1");
+        System.out.println(circle1.toString());
+        System.out.println("circle radius: " + circle1.getRadius());
+        System.out.println("area: " + circle1.getArea());
+        System.out.println("perimeter: " + circle1.getPerimeter());
+        circle1.setRadius(7);
+        circle1.setFilled(true);
+        circle1.setColor("Green");
+        System.out.println(circle1.toString());
+        System.out.println("circle radius: " + circle1.getRadius());
+        System.out.println("area: " + circle1.getArea());
+        System.out.println("perimeter: " + circle1.getPerimeter());
+        divider("circle1");
+
+        System.out.println();
+
+        Circle circle2 = new Circle("Red", true, 6);
+        divider("circle2");
+        System.out.println(circle2.toString());
+        System.out.println("circle radius: " + circle2.getRadius());
+        System.out.println("area: " + circle2.getArea());
+        System.out.println("perimeter: " + circle2.getPerimeter());
+        circle2.setRadius(2);
+        circle2.setFilled(false);
+        circle2.setColor("Yellow");
+        System.out.println(circle2.toString());
+        System.out.println("circle radius: " + circle2.getRadius());
+        System.out.println("area: " + circle2.getArea());
+        System.out.println("perimeter: " + circle2.getPerimeter());
+        divider("circle2");
+
 
         System.out.println();
 
@@ -136,6 +171,47 @@ public class Main {
 
         System.out.println();
 
+        Rectangle rectangle1 = new Rectangle("Blue", false, 12, 18);
+        divider("rectangle1");
+        System.out.println(rectangle1.toString());
+        System.out.println("width: " + rectangle1.getWidth());
+        System.out.println("length: " + rectangle1.getLength());
+        System.out.println("area: " + rectangle1.getArea());
+        System.out.println("perimeter: " + rectangle1.getPerimeter());
+        rectangle1.setLength(10);
+        rectangle1.setWidth(5);
+        rectangle1.setFilled(true);
+        rectangle1.setColor("Red");
+        System.out.println(rectangle1.toString());
+        System.out.println("width: " + rectangle1.getWidth());
+        System.out.println("length: " + rectangle1.getLength());
+        System.out.println("area: " + rectangle1.getArea());
+        System.out.println("perimeter: " + rectangle1.getPerimeter());
+        divider("rectangle1");
+
+        System.out.println();
+
+        Rectangle rectangle2 = new Rectangle("Green", true, 20, 25);
+        divider("rectangle2");
+        System.out.println(rectangle2.toString());
+        System.out.println("width: " + rectangle2.getWidth());
+        System.out.println("length: " + rectangle2.getLength());
+        System.out.println("area: " + rectangle2.getArea());
+        System.out.println("perimeter: " + rectangle2.getPerimeter());
+        rectangle2.setLength(14);
+        rectangle2.setWidth(9);
+        rectangle2.setFilled(false);
+        rectangle2.setColor("Gray");
+        System.out.println(rectangle2.toString());
+        System.out.println("width: " + rectangle2.getWidth());
+        System.out.println("length: " + rectangle2.getLength());
+        System.out.println("area: " + rectangle2.getArea());
+        System.out.println("perimeter: " + rectangle2.getPerimeter());
+        divider("rectangle2");
+
+
+        System.out.println();
+
         Square default_square = new Square();
         divider("default_square");
         System.out.println(default_square.toString());
@@ -194,6 +270,47 @@ public class Main {
         System.out.println("perimeter: "+ init_super_square.getPerimeter());
         divider("init_super_square");
 
+        System.out.println();
+
+        Square square1 = new Square(12, "Blue", true);
+        divider("square1");
+        System.out.println(square1.toString());
+        System.out.println("width: " + square1.getWidth());
+        System.out.println("side: " + square1.getSide());
+        System.out.println("area: " + square1.getArea());
+        System.out.println("perimeter: " + square1.getPerimeter());
+        square1.setSide(7);
+        square1.setWidth(5);
+        square1.setFilled(false);
+        square1.setColor("Gray");
+        System.out.println(square1.toString());
+        System.out.println("width: " + square1.getWidth());
+        System.out.println("side: " + square1.getSide());
+        System.out.println("area: " + square1.getArea());
+        System.out.println("perimeter: " + square1.getPerimeter());
+        divider("square1");
+
+        System.out.println();
+
+        Square square2 = new Square(9, "Green", false);
+        divider("square2");
+        System.out.println(square2.toString());
+        System.out.println("width: " + square2.getWidth());
+        System.out.println("side: " + square2.getSide());
+        System.out.println("area: " + square2.getArea());
+        System.out.println("perimeter: " + square2.getPerimeter());
+        square2.setSide(10);
+        square2.setWidth(10);
+        square2.setFilled(true);
+        square2.setColor("Red");
+        System.out.println(square2.toString());
+        System.out.println("width: " + square2.getWidth());
+        System.out.println("side: " + square2.getSide());
+        System.out.println("area: " + square2.getArea());
+        System.out.println("perimeter: " + square2.getPerimeter());
+        divider("square2");
+
+        System.out.println();
 
     }
     public static void divider(String msg){
