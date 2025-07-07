@@ -195,10 +195,6 @@ public class Main {
         divider("init_super_square");
 
 
-
-
-
-
     }
     public static void divider(String msg){
         System.out.printf("---------------------%s-----------------------------\n", msg);

@@ -1,25 +1,25 @@
 public class Square extends Rectangle{
     //assume that side is length:
     public Square(){
-        super.setLength(1);
+        setLength(1);
     }
 
     public Square(double side){
-        super.setLength(side);
+        setLength(side);
     }
 
     public Square(double side, String color, boolean isFilled) {
-        super.setLength(side);
-        super.setColor(color);
-        super.setFilled(isFilled);
+        setLength(side);
+        setColor(color);
+        setFilled(isFilled);
     }
 
     public double getSide() {
-        return super.getLength();
+        return getLength();
     }
 
     public void setSide(double side){
-        super.setLength(side);
+        setLength(side);
     }
 
     @Override
