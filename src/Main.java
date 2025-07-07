@@ -2,14 +2,14 @@ public class Main {
     public static void main(String[] args) {
         //default constructor
         Shape default_shape = new Shape();
-        divider("default shape");
+        divider("default_shape");
         System.out.println(default_shape.toString());
         default_shape.setColor("red");
         default_shape.setFilled(false);
         System.out.println(default_shape.toString());
         System.out.println("color: "+default_shape.getColor());
         System.out.println("is filled: "+default_shape.isFilled());
-        divider("default shape");
+        divider("default_shape");
 
         System.out.println();
 
@@ -32,6 +32,8 @@ public class Main {
         System.out.println("area: "+ default_circle.getArea());
         System.out.println("circle perimeter: "+ default_circle.getPerimeter());
         default_circle.setRadius(3);
+        default_circle.setFilled(false);
+        default_circle.setColor("Ocean");
         System.out.println(default_circle.toString());
         System.out.println("circle radius: "+ default_circle.getRadius());
         System.out.println("area: "+ default_circle.getArea());
