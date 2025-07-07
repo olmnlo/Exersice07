@@ -62,16 +62,75 @@ public class Main {
         System.out.println(init_all_circle.toString());
         System.out.println("circle radius: "+ init_all_circle.getRadius());
         System.out.println("area: "+ init_all_circle.getArea());
-        System.out.println("circle perimeter: "+ init_all_circle.getPerimeter());
+        System.out.println("perimeter: "+ init_all_circle.getPerimeter());
         init_all_circle.setRadius(3);
         init_all_circle.setFilled(false);
         init_all_circle.setColor("Black");
         System.out.println(init_all_circle.toString());
         System.out.println("circle radius: "+ init_all_circle.getRadius());
         System.out.println("area: "+ init_all_circle.getArea());
-        System.out.println("circle perimeter: "+ init_all_circle.getPerimeter());
+        System.out.println("perimeter: "+ init_all_circle.getPerimeter());
         divider("init_all_circle");
 
+        System.out.println();
+
+        Rectangle default_rectangle = new Rectangle();
+        divider("default_rectangle");
+        System.out.println(default_rectangle.toString());
+        System.out.println("width: "+default_rectangle.getWidth());
+        System.out.println("length: "+ default_rectangle.getLength());
+        System.out.println("area: "+ default_rectangle.getArea());
+        System.out.println("perimeter: "+ default_rectangle.getPerimeter());
+        default_rectangle.setLength(8);
+        default_rectangle.setWidth(6);
+        default_rectangle.setFilled(false);
+        default_rectangle.setColor("Black");
+        System.out.println(default_rectangle.toString());
+        System.out.println("width: "+default_rectangle.getWidth());
+        System.out.println("length: "+ default_rectangle.getLength());
+        System.out.println("area: "+ default_rectangle.getArea());
+        System.out.println("perimeter: "+ default_rectangle.getPerimeter());
+        divider("default_rectangle");
+
+        System.out.println();
+
+        Rectangle init_wid_len_rectangle = new Rectangle(10,5);
+        divider("init_wid_len_rectangle");
+        System.out.println(init_wid_len_rectangle.toString());
+        System.out.println("width: "+init_wid_len_rectangle.getWidth());
+        System.out.println("length: "+ init_wid_len_rectangle.getLength());
+        System.out.println("area: "+ init_wid_len_rectangle.getArea());
+        System.out.println("perimeter: "+ init_wid_len_rectangle.getPerimeter());
+        init_wid_len_rectangle.setLength(8);
+        init_wid_len_rectangle.setWidth(6);
+        init_wid_len_rectangle.setFilled(false);
+        init_wid_len_rectangle.setColor("Black");
+        System.out.println(init_wid_len_rectangle.toString());
+        System.out.println("width: "+init_wid_len_rectangle.getWidth());
+        System.out.println("length: "+ init_wid_len_rectangle.getLength());
+        System.out.println("area: "+ init_wid_len_rectangle.getArea());
+        System.out.println("perimeter: "+ init_wid_len_rectangle.getPerimeter());
+        divider("init_wid_len_rectangle");
+
+        System.out.println();
+
+        Rectangle init_super_constructor_rectangle = new Rectangle("Orange", true, 15, 20);
+        divider("init_super_constructor_rectangle");
+        System.out.println(init_super_constructor_rectangle.toString());
+        System.out.println("width: "+init_super_constructor_rectangle.getWidth());
+        System.out.println("length: "+ init_super_constructor_rectangle.getLength());
+        System.out.println("area: "+ init_super_constructor_rectangle.getArea());
+        System.out.println("perimeter: "+ init_super_constructor_rectangle.getPerimeter());
+        init_super_constructor_rectangle.setLength(8);
+        init_super_constructor_rectangle.setWidth(6);
+        init_super_constructor_rectangle.setFilled(false);
+        init_super_constructor_rectangle.setColor("Black");
+        System.out.println(init_super_constructor_rectangle.toString());
+        System.out.println("width: "+init_super_constructor_rectangle.getWidth());
+        System.out.println("length: "+ init_super_constructor_rectangle.getLength());
+        System.out.println("area: "+ init_super_constructor_rectangle.getArea());
+        System.out.println("perimeter: "+ init_super_constructor_rectangle.getPerimeter());
+        divider("init_super_constructor_rectangle");
 
 
 
