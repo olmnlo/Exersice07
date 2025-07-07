@@ -4,7 +4,8 @@ public class Shape {
 
 
     public Shape(){
-
+        color = "green";
+        filled = true;
     }
 
     public Shape(String color, boolean filled) {
@@ -30,9 +31,11 @@ public class Shape {
 
     @Override
     public String toString() {
-        return "Shape{" +
-                "color='" + color + '\'' +
-                ", filled=" + filled +
-                '}';
+        if (filled){
+            return "A Shape with color of "+color+" and filled";
+        }else {
+            return "A Shape with color of "+color+" and Not filled";
+        }
+
     }
 }
