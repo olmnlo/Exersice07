@@ -47,11 +47,31 @@ public class Main {
         System.out.println("area: "+ init_rad_circle.getArea());
         System.out.println("circle perimeter: "+ init_rad_circle.getPerimeter());
         init_rad_circle.setRadius(3);
+        init_rad_circle.setFilled(false);
+        init_rad_circle.setColor("Pink");
         System.out.println(init_rad_circle.toString());
         System.out.println("circle radius: "+ init_rad_circle.getRadius());
         System.out.println("area: "+ init_rad_circle.getArea());
         System.out.println("circle perimeter: "+ init_rad_circle.getPerimeter());
         divider("init_rad_circle");
+
+        System.out.println();
+
+        Circle init_all_circle = new Circle("Orange", true, 4);
+        divider("init_all_circle");
+        System.out.println(init_all_circle.toString());
+        System.out.println("circle radius: "+ init_all_circle.getRadius());
+        System.out.println("area: "+ init_all_circle.getArea());
+        System.out.println("circle perimeter: "+ init_all_circle.getPerimeter());
+        init_all_circle.setRadius(3);
+        init_all_circle.setFilled(false);
+        init_all_circle.setColor("Black");
+        System.out.println(init_all_circle.toString());
+        System.out.println("circle radius: "+ init_all_circle.getRadius());
+        System.out.println("area: "+ init_all_circle.getArea());
+        System.out.println("circle perimeter: "+ init_all_circle.getPerimeter());
+        divider("init_all_circle");
+
 
 
 
