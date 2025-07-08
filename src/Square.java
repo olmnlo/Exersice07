@@ -1,11 +1,11 @@
 public class Square extends Rectangle{
     //assume that side is length:
     public Square(){
-        setLength(1);
+        super(1,1);
     }
 
     public Square(double side){
-        setLength(side);
+        super(side, side);
     }
 
     public Square(double side, String color, boolean isFilled) {
@@ -22,15 +22,6 @@ public class Square extends Rectangle{
         setLength(side);
     }
 
-    @Override
-    public double getArea() {
-        return getLength()*getLength();
-    }
-
-    @Override
-    public double getPerimeter() {
-        return getLength()*4;
-    }
 
     @Override
     public String toString() {
